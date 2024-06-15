@@ -7,6 +7,7 @@ import 'package:flutter_test_projcets/views/addusersdetails/addusers.dart';
 import 'package:flutter_test_projcets/views/addusersdetails/addusersrealtime.dart';
 import 'package:flutter_test_projcets/views/addusersdetails/profile.dart';
 import 'package:flutter_test_projcets/views/addusersdetails/showusersrealtime.dart';
+import 'package:flutter_test_projcets/views/apiscreens/modles/showproduct.dart';
 import 'package:flutter_test_projcets/views/bottomnav/bottomnav.dart';
 import 'package:flutter_test_projcets/views/bottomnav/homescreens.dart';
 import 'package:get/get.dart';
@@ -32,7 +33,7 @@ class _MyAppState extends State<MyApp> {
     return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
      // home: BottomNavigationsPages(),
-      home: SplashScreens(),
+      home: ShowProductScreens(),
      // home: ProfileScreens(),
      // home: ProfileScreens(),
     );
